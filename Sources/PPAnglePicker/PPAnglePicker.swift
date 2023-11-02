@@ -1,6 +1,7 @@
 
 import SwiftUI
 
+@available(iOS 17.0, *)
 public struct PPAnglePickerView: View {
     @State private var buttons: Bool = true
     @State private var angleState: String = "0.0"
