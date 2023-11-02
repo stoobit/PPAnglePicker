@@ -14,7 +14,7 @@ public struct PPAnglePickerView: View {
     
     @Binding var degrees: Double
     
-    init(degrees: Binding<Double>) {
+    public init(degrees: Binding<Double>) {
         _degrees = degrees
     }
     
