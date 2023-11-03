@@ -5,6 +5,9 @@ With the PPAnglePicker you can enable your users to select angles (in degrees) q
 ---
 ### Implementation 
 ```swift
+import SwiftUI
+import PPAnglePicker
+
 struct ContentView: View {
     @State var degrees: Double = 0.0
 
