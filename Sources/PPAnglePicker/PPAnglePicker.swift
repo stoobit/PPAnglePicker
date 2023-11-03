@@ -16,6 +16,7 @@ public struct PPAnglePickerView: View {
     
     public init(degrees: Binding<Double>) {
         _degrees = degrees
+        angleState = String(degrees.wrappedValue)
     }
     
     public var body: some View {
