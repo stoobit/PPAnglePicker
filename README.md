@@ -1,9 +1,13 @@
 # PPAnglePicker
-With the PPAnglePicker you can enable your users to select angles (in degrees) quickly and easily.
+With the PPAnglePicker you can enable your users to select angles (in degrees) quickly and easily.\
+**Made for iOS/iPadOS & macOS.**
 
 ---
 ### Implementation 
 ```swift
+import SwiftUI
+import PPAnglePicker
+
 struct ContentView: View {
     @State var degrees: Double = 0.0
 
@@ -12,3 +16,7 @@ struct ContentView: View {
     }
 }
 ```
+---
+
+![image](https://github.com/stoobit/PPAnglePicker/blob/main/img1.png?raw=true)
+![image](https://github.com/stoobit/PPAnglePicker/blob/main/img2.png?raw=true)
