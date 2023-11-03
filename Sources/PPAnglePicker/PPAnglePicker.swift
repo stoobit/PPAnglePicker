@@ -14,6 +14,10 @@ public struct PPAnglePickerView: View {
     
     @Binding var degrees: Double
     
+    public init(degrees: Binding<Double>) {
+        _degrees = degrees
+    }
+    
     public var body: some View {
         ZStack {
             
