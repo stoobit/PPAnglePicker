@@ -87,6 +87,7 @@ public struct PPAnglePickerView: View {
             VStack(spacing: 10) {
                 Text(angleState)
                     .font(.largeTitle.bold())
+                    .foregroundStyle(Color.primary)
                     .contentTransition(.numericText(value: degrees))
                     .onChange(of: degrees) {
                         withAnimation(.bouncy) {
@@ -100,7 +101,6 @@ public struct PPAnglePickerView: View {
                 }
             }
         }
-        .padding(100)
     }
     
     func getOffset() -> CGSize  {
