@@ -16,7 +16,6 @@ public struct PPAnglePickerView: View {
     
     public init(degrees: Binding<Double>) {
         _degrees = degrees
-        angleState = String(degrees.wrappedValue)
     }
     
     public var body: some View {
@@ -90,7 +89,7 @@ public struct PPAnglePickerView: View {
                     .font(.largeTitle.bold())
                     .foregroundStyle(Color.primary)
                     .contentTransition(.numericText(value: degrees))
-                    .onChange(of: degrees) {
+                    .onChange(of: degrees, initial: true) {
                         withAnimation(.bouncy) {
                             angleState = String(degrees)
                         }
