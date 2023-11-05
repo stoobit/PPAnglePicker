@@ -1,6 +1,6 @@
 # PPAnglePicker
 With the PPAnglePicker you can enable your users to select angles (in degrees) quickly and easily.\
-**Made for iOS & macOS.**
+**Available for iOS 17+ & macOS 14+.**
 
 ---
 ### Implementation 
